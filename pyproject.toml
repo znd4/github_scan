@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "secrets"
+version = "0.1.0"
+description = "Script for scanning for github secrets"
+authors = ["Zane Dufour <zdufour@ford.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+typer = "^0.3.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
